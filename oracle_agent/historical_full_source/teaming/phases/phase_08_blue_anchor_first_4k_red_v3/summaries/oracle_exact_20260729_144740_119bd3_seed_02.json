@@ -1,0 +1,73 @@
+{
+  "run_id": "oracle_exact_20260729_144740_119bd3_seed_02",
+  "red_version": "campus_crucible_v3_controlled",
+  "blue_version": "blue_v2_7_anchor_first_4k",
+  "days_completed": 2,
+  "bankrupt": false,
+  "accounting_profit": 270.67,
+  "liquidation_profit": -203.55,
+  "ending_cash": 2706.65,
+  "service_rate": 0.7133,
+  "minimum_shop_service_rate": 0.3095,
+  "service_rate_by_shop": {
+    "hostel": 0.9605,
+    "academic": 0.3095,
+    "sports": 0.64
+  },
+  "spoilage_rate": 0.0,
+  "forced_closure_count": 0,
+  "closed_shop_days": 0,
+  "final_shop_status": {
+    "hostel": {
+      "open": true,
+      "closed_until_day": 0,
+      "reputation_band": "strong",
+      "missed_rent_days": 0
+    },
+    "academic": {
+      "open": true,
+      "closed_until_day": 0,
+      "reputation_band": "strained",
+      "missed_rent_days": 0
+    },
+    "sports": {
+      "open": true,
+      "closed_until_day": 0,
+      "reputation_band": "strained",
+      "missed_rent_days": 0
+    }
+  },
+  "challenge_pass": false,
+  "challenge_checks": {
+    "completed_all_days": true,
+    "minimum_profit": false,
+    "overall_service": false,
+    "weakest_shop_service": false,
+    "spoilage_control": true,
+    "price_refusal_control": true,
+    "no_hard_cutoff_pricing": true,
+    "solvent": true,
+    "shop_continuity": true,
+    "all_shops_open_at_end": true
+  },
+  "codex_decision_days": 0,
+  "fallback_days": 2,
+  "context_usage": {
+    "days_recorded": 2,
+    "daily_limit": 4000,
+    "maximum_estimated_prompt_tokens": 3261,
+    "average_estimated_prompt_tokens": 3250,
+    "limit_violations": 0,
+    "counter_method": "max(utf8_bytes/3, lexical_pieces)"
+  },
+  "token_usage": {
+    "calls_recorded": 0,
+    "input_tokens": 0,
+    "cached_input_tokens": 0,
+    "noncached_input_tokens": 0,
+    "output_tokens": 0,
+    "reasoning_output_tokens": 0,
+    "total_tokens": 0,
+    "average_total_tokens_per_call": 0
+  }
+}

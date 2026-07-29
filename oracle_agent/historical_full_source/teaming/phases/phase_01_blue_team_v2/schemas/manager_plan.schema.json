@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "cash_posture": {
+      "type": "string",
+      "enum": ["protect", "balanced", "growth"]
+    },
+    "shop_modes": {
+      "type": "object",
+      "properties": {
+        "hostel": {
+          "type": "string",
+          "enum": ["protect", "balanced", "growth", "clear_fresh"]
+        },
+        "academic": {
+          "type": "string",
+          "enum": ["protect", "balanced", "growth", "clear_fresh"]
+        },
+        "sports": {
+          "type": "string",
+          "enum": ["protect", "balanced", "growth", "clear_fresh"]
+        }
+      },
+      "required": ["hostel", "academic", "sports"],
+      "additionalProperties": false
+    },
+    "price_actions": {
+      "type": "array",
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "properties": {
+          "shop": {
+            "type": "string",
+            "enum": ["hostel", "academic", "sports"]
+          },
+          "product": {
+            "type": "string",
+            "enum": [
+              "milk",
+              "bread",
+              "bananas",
+              "instant_noodles",
+              "rice",
+              "bottled_water",
+              "biscuits",
+              "energy_drink"
+            ]
+          },
+          "action": {
+            "type": "string",
+            "enum": ["discount", "reference", "premium"]
+          }
+        },
+        "required": ["shop", "product", "action"],
+        "additionalProperties": false
+      }
+    },
+    "stock_actions": {
+      "type": "array",
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "properties": {
+          "shop": {
+            "type": "string",
+            "enum": ["hostel", "academic", "sports"]
+          },
+          "product": {
+            "type": "string",
+            "enum": [
+              "milk",
+              "bread",
+              "bananas",
+              "instant_noodles",
+              "rice",
+              "bottled_water",
+              "biscuits",
+              "energy_drink"
+            ]
+          },
+          "priority": {
+            "type": "string",
+            "enum": ["low", "normal", "high"]
+          }
+        },
+        "required": ["shop", "product", "priority"],
+        "additionalProperties": false
+      }
+    },
+    "reasoning": {"type": "string", "maxLength": 600}
+  },
+  "required": [
+    "cash_posture",
+    "shop_modes",
+    "price_actions",
+    "stock_actions",
+    "reasoning"
+  ],
+  "additionalProperties": false
+}

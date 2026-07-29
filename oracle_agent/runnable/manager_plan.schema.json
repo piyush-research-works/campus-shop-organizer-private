@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["cash_posture", "shop_focus", "reasoning"],
+  "properties": {
+    "cash_posture": {
+      "type": "string",
+      "enum": ["lean", "balanced", "service"]
+    },
+    "shop_focus": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "enum": ["lean", "balanced", "service"]
+      }
+    },
+    "reasoning": {
+      "type": "string",
+      "maxLength": 500
+    }
+  }
+}
+

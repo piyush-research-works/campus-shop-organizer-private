@@ -1,0 +1,60 @@
+{
+  "selected_strategy": "adaptive_portfolio_anchor_first_reserves",
+  "blue_version": "blue_v2_7_anchor_first_4k",
+  "red_version": "campus_crucible_v3_controlled",
+  "model": "gpt-5.4-mini",
+  "reasoning_effort": "low",
+  "daily_application_context_limit": 4000,
+  "controlled_run": {
+    "run_id": "blue_v2_7_anchor_first_vs_red_v3_controlled_60d_model_20260728",
+    "days": 60,
+    "accounting_profit": -733.55,
+    "liquidation_profit": -1424.76,
+    "ending_cash": 991.9,
+    "service_rate": 0.3686,
+    "minimum_shop_service_rate": 0.1364,
+    "hostel_service_rate": 0.6774,
+    "spoilage_rate": 0.1013,
+    "forced_closures": 0,
+    "profitable_days": 27,
+    "hostel_open_at_end": true,
+    "codex_decision_days": 60,
+    "fallback_days": 0,
+    "context_limit_violations": 0,
+    "reported_total_tokens": 852062
+  },
+  "unseen_seed_run": {
+    "run_id": "blue_v2_7_anchor_first_vs_red_v3_unseen_seed2026072802_60d_model",
+    "seed": 2026072802,
+    "days": 60,
+    "accounting_profit": -2056.63,
+    "liquidation_profit": -2350.33,
+    "ending_cash": 464.37,
+    "service_rate": 0.3474,
+    "minimum_shop_service_rate": 0.2012,
+    "hostel_service_rate": 0.5095,
+    "spoilage_rate": 0.132,
+    "forced_closures": 0,
+    "profitable_days": 20,
+    "hostel_open_at_end": true,
+    "codex_decision_days": 60,
+    "fallback_days": 0,
+    "context_limit_violations": 0,
+    "reported_total_tokens": 850890
+  },
+  "controlled_improvement_over_v2_6": {
+    "accounting_profit": 1909.37,
+    "ending_cash": 933.67,
+    "service_rate": 0.1487,
+    "spoilage_rate": -0.0353,
+    "forced_closures": -1
+  },
+  "remaining_failures": [
+    "negative_accounting_profit",
+    "low_closed_shop_service",
+    "all_shops_not_open_at_end",
+    "seed_sensitive_late_demand"
+  ],
+  "next_candidate": "funded_selective_shop_rotation"
+}
+

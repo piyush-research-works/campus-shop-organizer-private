@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "cash_reserve_rent_days": 1,
+  "warning_reserve_days": 4,
+  "downturn_reserve_days": 5,
+  "assortment_size": 8,
+  "target_cover_days": {
+    "perishable": 2.2,
+    "nonperishable": 3.2
+  },
+  "opening_cover_days": {
+    "perishable": 1.7,
+    "nonperishable": 2.2
+  },
+  "festival_fresh_order_reduction": 0.55,
+  "low_footfall_order_reduction": 0.45,
+  "price_ratio_to_reference": 1.0,
+  "price_test_step": 0.04,
+  "maximum_preferred_price_ratio": 1.12,
+  "transfer_stockout_threshold": 2,
+  "lessons": [
+    "Preserve cash for rent and two-day delivery lead time.",
+    "Reduce fresh orders before announced travel, festivals, or breaks.",
+    "Treat available stock with collapsed sales as a possible pricing problem."
+  ],
+  "product_adjustments": {}
+}

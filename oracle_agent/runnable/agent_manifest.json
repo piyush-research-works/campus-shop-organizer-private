@@ -1,0 +1,18 @@
+{
+  "agent_name": "oracle_blue_v2_7_anchor_first",
+  "agent_version": "2.7-contract-3800",
+  "working_directory": ".",
+  "memory_directory": "memory",
+  "timeout_seconds": 180,
+  "command": [
+    "{python}",
+    "agent.py",
+    "--observation",
+    "{observation}",
+    "--action",
+    "{action}",
+    "--memory-dir",
+    "{memory_dir}"
+  ]
+}
+

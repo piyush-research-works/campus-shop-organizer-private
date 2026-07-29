@@ -1,0 +1,84 @@
+{
+  "shops": [
+    {
+      "id": "hostel",
+      "name": "Hostel Shop",
+      "customer_hint": "Hostel residents buy quick meals and snacks, mainly during evenings.",
+      "price_sensitivity": 1.15,
+      "capacity": {"cold": 24, "fresh": 28, "dry": 50},
+      "base_sales": {
+        "milk": 8,
+        "bread": 6,
+        "bananas": 4,
+        "instant_noodles": 10,
+        "rice": 2,
+        "bottled_water": 6,
+        "biscuits": 8,
+        "energy_drink": 3
+      }
+    },
+    {
+      "id": "academic",
+      "name": "Academic Block Shop",
+      "customer_hint": "Students and staff buy around class breaks; weekends are normally quiet.",
+      "price_sensitivity": 1.0,
+      "capacity": {"cold": 16, "fresh": 20, "dry": 40},
+      "base_sales": {
+        "milk": 5,
+        "bread": 4,
+        "bananas": 5,
+        "instant_noodles": 5,
+        "rice": 2,
+        "bottled_water": 10,
+        "biscuits": 8,
+        "energy_drink": 4
+      }
+    },
+    {
+      "id": "sports",
+      "name": "Sports Complex Shop",
+      "customer_hint": "Players and spectators buy refreshments around activities and events.",
+      "price_sensitivity": 0.9,
+      "capacity": {"cold": 12, "fresh": 20, "dry": 48},
+      "base_sales": {
+        "milk": 3,
+        "bread": 2,
+        "bananas": 6,
+        "instant_noodles": 3,
+        "rice": 1,
+        "bottled_water": 14,
+        "biscuits": 6,
+        "energy_drink": 8
+      }
+    }
+  ],
+  "weekday_multipliers": {
+    "hostel": {
+      "Monday": 1.0,
+      "Tuesday": 1.0,
+      "Wednesday": 1.02,
+      "Thursday": 1.05,
+      "Friday": 1.1,
+      "Saturday": 0.88,
+      "Sunday": 0.8
+    },
+    "academic": {
+      "Monday": 1.08,
+      "Tuesday": 1.1,
+      "Wednesday": 1.1,
+      "Thursday": 1.08,
+      "Friday": 0.95,
+      "Saturday": 0.35,
+      "Sunday": 0.15
+    },
+    "sports": {
+      "Monday": 0.9,
+      "Tuesday": 0.95,
+      "Wednesday": 1.0,
+      "Thursday": 1.0,
+      "Friday": 1.08,
+      "Saturday": 1.22,
+      "Sunday": 1.15
+    }
+  }
+}

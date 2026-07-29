@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-07-29T14:41:37.385468+05:30",
+  "notice": "Organizer private. Frozen before participant submissions.",
+  "seed_set_id": "final_9b751611e8c8419c890ea4312a8556cf",
+  "seeds": [
+    {
+      "seed_id": "hidden_seed_1",
+      "value": 613981151109178737
+    },
+    {
+      "seed_id": "hidden_seed_2",
+      "value": 8728780798731573098
+    },
+    {
+      "seed_id": "hidden_seed_3",
+      "value": 8825554219346105862
+    }
+  ]
+}

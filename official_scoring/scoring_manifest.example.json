@@ -1,0 +1,24 @@
+{
+  "event_id": "campus_shop_agent_challenge_demo",
+  "participants": [
+    {
+      "participant_id": "team_a",
+      "batch_summary": "C:\\PRIVATE\\team_a\\batch_summary.json",
+      "human_review": {
+        "design_and_code": 4.0,
+        "final_explanation": 4.0,
+        "notes": "Organizer-only notes."
+      }
+    },
+    {
+      "participant_id": "team_b",
+      "batch_summary": "C:\\PRIVATE\\team_b\\batch_summary.json",
+      "human_review": {
+        "design_and_code": 4.0,
+        "final_explanation": 4.0,
+        "notes": "Organizer-only notes."
+      }
+    }
+  ]
+}
+

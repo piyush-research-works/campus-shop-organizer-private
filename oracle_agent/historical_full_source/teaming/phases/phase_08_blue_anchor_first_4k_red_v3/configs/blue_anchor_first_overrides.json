@@ -1,0 +1,7 @@
+{
+  "recovery_escrow_cap": 300,
+  "hard_consolidation_runway_days": 2.5,
+  "anchor_minimum_order_budget": 200,
+  "reopen_cash_reserve_days": 8.0
+}
+

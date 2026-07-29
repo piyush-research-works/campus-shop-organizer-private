@@ -1,0 +1,25 @@
+{
+  "challenge": "Campus Shop Agent Challenge",
+  "hackathon_version": "1.0.0",
+  "private_red_version": "origin_one_campus_crucible_v3",
+  "seed_set_sha256": "",
+  "model": "gpt-5.4-mini",
+  "reasoning_effort": "low",
+  "daily_context_token_limit": 3800,
+  "daily_llm_call_limit": 1,
+  "decision_timeout_seconds": 180,
+  "days_per_seed": 60,
+  "seed_count": 3,
+  "participants": [
+    {
+      "participant_id": "team_a",
+      "source_sha256": "",
+      "validation_report": ""
+    },
+    {
+      "participant_id": "team_b",
+      "source_sha256": "",
+      "validation_report": ""
+    }
+  ]
+}

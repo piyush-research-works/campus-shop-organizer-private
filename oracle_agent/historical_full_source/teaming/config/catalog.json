@@ -1,0 +1,99 @@
+{
+  "products": [
+    {
+      "id": "milk",
+      "name": "Milk",
+      "zone": "cold",
+      "unit_cost": 20,
+      "reference_price": 30,
+      "elasticity": 1.4,
+      "shelf_life_days": 3,
+      "pack_size": 6,
+      "supplier_daily_limit": 36
+    },
+    {
+      "id": "bread",
+      "name": "Bread",
+      "zone": "fresh",
+      "unit_cost": 15,
+      "reference_price": 24,
+      "elasticity": 1.6,
+      "shelf_life_days": 4,
+      "pack_size": 5,
+      "supplier_daily_limit": 30
+    },
+    {
+      "id": "bananas",
+      "name": "Bananas",
+      "zone": "fresh",
+      "unit_cost": 8,
+      "reference_price": 14,
+      "elasticity": 1.8,
+      "shelf_life_days": 4,
+      "pack_size": 6,
+      "supplier_daily_limit": 36
+    },
+    {
+      "id": "instant_noodles",
+      "name": "Instant noodles",
+      "zone": "dry",
+      "unit_cost": 13,
+      "reference_price": 20,
+      "elasticity": 1.2,
+      "shelf_life_days": 90,
+      "pack_size": 6,
+      "supplier_daily_limit": 48
+    },
+    {
+      "id": "rice",
+      "name": "Rice packet",
+      "zone": "dry",
+      "unit_cost": 39,
+      "reference_price": 55,
+      "elasticity": 1.1,
+      "shelf_life_days": 180,
+      "pack_size": 4,
+      "supplier_daily_limit": 20
+    },
+    {
+      "id": "bottled_water",
+      "name": "Bottled water",
+      "zone": "dry",
+      "unit_cost": 11,
+      "reference_price": 18,
+      "elasticity": 1.0,
+      "shelf_life_days": 365,
+      "pack_size": 6,
+      "supplier_daily_limit": 72
+    },
+    {
+      "id": "biscuits",
+      "name": "Biscuits",
+      "zone": "dry",
+      "unit_cost": 9,
+      "reference_price": 15,
+      "elasticity": 1.5,
+      "shelf_life_days": 180,
+      "pack_size": 8,
+      "supplier_daily_limit": 64
+    },
+    {
+      "id": "energy_drink",
+      "name": "Energy drink",
+      "zone": "cold",
+      "unit_cost": 27,
+      "reference_price": 40,
+      "elasticity": 1.3,
+      "shelf_life_days": 180,
+      "pack_size": 4,
+      "supplier_daily_limit": 32
+    }
+  ],
+  "complements": [
+    {"items": ["bread", "milk"], "strength": 0.1},
+    {"items": ["bread", "bananas"], "strength": 0.05},
+    {"items": ["instant_noodles", "energy_drink"], "strength": 0.08},
+    {"items": ["biscuits", "milk"], "strength": 0.06},
+    {"items": ["bottled_water", "energy_drink"], "strength": 0.05}
+  ]
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+official_runner/runs/
+official_scoring/results/
+official_scoring/qa_*.json
+student_submissions/
+oracle_agent/runnable/memory/
+oracle_agent/batch_runs/
+oracle_agent/historical_full_source/teaming/phases/phase_08_blue_anchor_first_4k_red_v3/runs/
+*.log
