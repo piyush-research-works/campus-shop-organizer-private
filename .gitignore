@@ -9,4 +9,5 @@ student_submissions/
 oracle_agent/runnable/memory/
 oracle_agent/batch_runs/
 oracle_agent/historical_full_source/teaming/phases/phase_08_blue_anchor_first_4k_red_v3/runs/
+oracle_agent/historical_full_source/teaming/phases/phase_08_blue_anchor_first_4k_red_v3/summaries/
 *.log
